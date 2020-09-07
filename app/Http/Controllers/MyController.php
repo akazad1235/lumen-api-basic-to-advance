@@ -11,6 +11,7 @@ Class MyController extends Controller{
         return response()->json($myArray);
     }
 
+    //data input from body, header & parames 
     public function InputPerson(Request $request){
 
         return $request;
